@@ -1,139 +1,153 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:potion",
-            "functions": [
-              {
-                "function": "minecraft:set_lore",
-                "lore": [
-                  {
-                    "text": "Refrigerante de origens duvidosas",
-                    "color": "yellow"
-                  }
-                ]
-              },
-              {
-                "function": "minecraft:set_name",
-                "name": "It! Lemon Ice"
-              },
-              {
-                "function": "minecraft:set_potion",
-                "id": "minecraft:strong_swiftness"
-              }
-            ],
-            "conditions": [
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.7
-              }
-            ]
-          }
-        ]
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Refrigerante de origens duvidosas",
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "It! Lemon Ice"
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_swiftness"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
       },
-      {
-        "rolls": {
-          "min": 1,
-          "max": 2
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:name_tag"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.6
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "bonus_rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
         },
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:name_tag"
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:enchanted_golden_apple",
-            "conditions": [
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.1
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:golden_boots",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": 1
+            },
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
               }
-            ]
-          }
-        ]
-      },
-      {
-        "rolls": 2,
-        "bonus_rolls": 2,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "weight": 3,
-            "name": "minecraft:diamond"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 2,
-            "name": "minecraft:golden_boots",
-            "functions": [
-              {
-                "function": "minecraft:limit_count",
-                "limit": 1
-              },
-              {
-                "function": "minecraft:enchant_randomly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 16,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:string"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:bone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:rotten_flesh",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 2,
-            "name": "minecraft:golden_apple",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 2
-                }
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "rolls": 16,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "weight": 3,
-            "name": "minecraft:gold_ingot"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 3,
-            "name": "minecraft:string"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 3,
-            "name": "minecraft:bone"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 2,
-            "name": "minecraft:rotten_flesh",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 2,
-                  "max": 4
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

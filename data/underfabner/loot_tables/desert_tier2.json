@@ -1,112 +1,135 @@
 {
-    "pools": [
-      {
-        "rolls": 20,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "weight": 2,
-            "name": "minecraft:cobweb"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 5,
-            "name": "minecraft:bone",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 2,
-                  "max": 6
-                }
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 3,
-            "name": "minecraft:gold_ingot",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 4,
-                  "max": 7
-                }
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "rolls": {
-          "min": 1,
-          "max": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 15,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 5
         },
-        "bonus_rolls": 2,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "weight": 1,
-            "quality": 5,
-            "name": "minecraft:diamond_boots"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 2,
-            "name": "minecraft:iron_helmet",
-            "functions": [
-              {
-                "function": "minecraft:enchant_randomly"
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:cobweb"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 2,
-            "name": "minecraft:iron_chestplate",
-            "functions": [
-              {
-                "function": "minecraft:enchant_randomly"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 5
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 3,
-            "name": "minecraft:golden_pickaxe",
-            "functions": [
-              {
-                "function": "minecraft:set_damage",
-                "damage": {
-                  "min": 12,
-                  "max": 24
-                }
-              },
-              {
-                "function": "minecraft:set_enchantments",
-                "enchantments": {
-                  "minecraft:fortune": 3
-                }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "quality": 5,
+          "name": "minecraft:diamond_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:iron_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 1,
-            "quality": 5,
-            "name": "minecraft:diamond_sword",
-            "functions": [
-              {
-                "function": "minecraft:set_enchantments",
-                "enchantments": {
-                  "minecraft:sharpness": 1
-                }
+            },
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:iron_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": 1
+            },
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "quality": 5,
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": 1
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.75
+        }
+      ]
+    }
+  ]
+}

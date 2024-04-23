@@ -5,7 +5,7 @@
       "minecraft:deep_dark",
       "minecraft:lush_caves"
     ],
-    "step": "surface_structures",
+    "step": "underground_structures",
     "spawn_overrides": {},
     "terrain_adaptation": "beard_thin",
     "start_pool": "underfabner:nether_blue",
@@ -13,10 +13,10 @@
     "start_height": {
       "type": "minecraft:uniform",
       "min_inclusive": {
-        "absolute": -50
+        "absolute": -40
       },
       "max_inclusive": {
-        "absolute": 300
+        "absolute": 200
       }
     },
     "max_distance_from_center": 80,

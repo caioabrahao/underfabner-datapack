@@ -1,0 +1,152 @@
+{
+    "structures": [
+      {
+        "structure": "underfabner:snow_medium1",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:snow_medium2",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:badlands_medium",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:swamp_small",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:desert_big",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:desert_small",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:tnt_small",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:nether_red",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:nether_blue",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:nether_big",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:end_small",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:end_big",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:biscoito_small",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:cake_small",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:nihilus_dungeon",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:rainbow_big",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:leather_medium",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:mushroom_medium",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:honey_small",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:melancia_small",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:oak_small",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:birch_small",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:jungle_medium",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:jungle_small",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:ocean_small",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:ocean_big",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:pillager_big",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:pillager_medium",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:pillager_small",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:dungeon_babaca5",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:obsidian_fortress",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:dungeon_babaca1",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:dungeon_babaca2",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:dungeon_babaca3",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:dungeon_babaca4",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 1949906949,
+      "spread_type": "linear",
+      "spacing": 5,
+      "separation": 2
+    }
+  }
+  
