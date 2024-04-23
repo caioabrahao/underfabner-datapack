@@ -1,0 +1,35 @@
+{
+    "structures": [
+      {
+        "structure": "underfabner:dungeon_babaca5",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:obsidian_fortress",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:dungeon_babaca1",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:dungeon_babaca2",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:dungeon_babaca3",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:dungeon_babaca4",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 233777668,
+      "spacing": 10,
+      "separation": 5
+    }
+  }
+  

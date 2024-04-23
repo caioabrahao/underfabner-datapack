@@ -1,0 +1,93 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 15,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:music_disc_chirp",
+            "functions": [
+              {
+                "function": "minecraft:limit_count",
+                "limit": 1
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.5
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:gunpowder",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 17
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "quality": 3,
+            "name": "minecraft:golden_carrot"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:splash_potion",
+            "functions": [
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:strong_slowness"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "quality": 6,
+            "name": "minecraft:book"
+          },
+          {
+            "type": "minecraft:group",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "weight": 2,
+                "quality": 5,
+                "name": "minecraft:diamond"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 5,
+                "quality": 1,
+                "name": "minecraft:gold_ingot"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 1,
+                "quality": 15,
+                "name": "minecraft:totem_of_undying",
+                "functions": [
+                  {
+                    "function": "minecraft:limit_count",
+                    "limit": {
+                      "min": 0,
+                      "max": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

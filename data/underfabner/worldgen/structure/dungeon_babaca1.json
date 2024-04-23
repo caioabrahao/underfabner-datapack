@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": [
+      "minecraft:dripstone_caves",
+      "minecraft:deep_dark",
+      "minecraft:lush_caves"
+    ],
+    "step": "surface_structures",
+    "spawn_overrides": {},
+    "terrain_adaptation": "beard_thin",
+    "start_pool": "underfabner:dungeon_babaca1",
+    "size": 1,
+    "start_height": {
+      "type": "minecraft:uniform",
+      "min_inclusive": {
+        "absolute": -50
+      },
+      "max_inclusive": {
+        "absolute": 300
+      }
+    },
+    "max_distance_from_center": 80,
+    "use_expansion_hack": false
+  }
+  

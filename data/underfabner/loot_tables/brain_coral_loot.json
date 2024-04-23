@@ -1,0 +1,31 @@
+{
+    "pools": [
+      {
+        "rolls": 10,
+        "bonus_rolls": 5,
+        "entries": [
+          {
+            "type": "minecraft:group",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "weight": 3,
+                "name": "minecraft:brain_coral"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 3,
+                "name": "minecraft:brain_coral_block"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 3,
+                "name": "minecraft:brain_coral_fan"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

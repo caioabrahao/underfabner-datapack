@@ -1,0 +1,158 @@
+{
+    "pools": [
+      {
+        "rolls": 20,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "quality": 5,
+            "name": "minecraft:axolotl_bucket",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Variant:4}"
+              },
+              {
+                "function": "minecraft:limit_count",
+                "limit": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "quality": 4,
+            "name": "minecraft:music_disc_otherside",
+            "functions": [
+              {
+                "function": "minecraft:limit_count",
+                "limit": 1
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.6
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "quality": 2,
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:limit_count",
+                "limit": {
+                  "min": 0,
+                  "max": 2
+                }
+              },
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:water_breathing"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "quality": 2,
+            "name": "minecraft:nautilus_shell"
+          },
+          {
+            "type": "minecraft:group",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "weight": 1,
+                "quality": 9,
+                "name": "minecraft:diamond_boots",
+                "functions": [
+                  {
+                    "function": "minecraft:set_damage",
+                    "damage": {
+                      "min": 300,
+                      "max": 400
+                    }
+                  },
+                  {
+                    "function": "minecraft:limit_count",
+                    "limit": 1
+                  },
+                  {
+                    "function": "minecraft:enchant_randomly",
+                    "enchantments": [
+                      "minecraft:frost_walker",
+                      "minecraft:unbreaking",
+                      "minecraft:depth_strider"
+                    ]
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.2
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 3,
+                "quality": 1,
+                "name": "minecraft:crying_obsidian"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 3,
+                "quality": 3,
+                "name": "minecraft:diamond",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 2
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 4,
+                "quality": 1,
+                "name": "minecraft:gold_ingot",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 2,
+                "quality": 6,
+                "name": "minecraft:heart_of_the_sea"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

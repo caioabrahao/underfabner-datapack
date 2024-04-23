@@ -1,0 +1,89 @@
+{
+    "pools": [
+      {
+        "rolls": 20,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:sponge"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:salmon",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:pufferfish"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:tube_coral"
+          },
+          {
+            "type": "minecraft:group",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "weight": 3,
+                "name": "minecraft:fire_coral_fan"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 3,
+                "name": "minecraft:bubble_coral"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 5,
+                "name": "minecraft:dried_kelp",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 5,
+                "name": "minecraft:suspicious_stew"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 1,
+                "name": "minecraft:turtle_helmet",
+                "functions": [
+                  {
+                    "function": "minecraft:limit_count",
+                    "limit": 1,
+                    "conditions": [
+                      {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.3
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 3,
+                "quality": 7,
+                "name": "minecraft:turtle_egg"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

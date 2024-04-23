@@ -1,0 +1,23 @@
+{
+    "structures": [
+      {
+        "structure": "underfabner:pillager_big",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:pillager_medium",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:pillager_small",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 1945471359,
+      "spacing": 10,
+      "separation": 5
+    }
+  }
+  

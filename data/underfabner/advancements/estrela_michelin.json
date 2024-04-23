@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:rotten_flesh"
+      },
+      "title": "Estrela Michelin",
+      "description": "Coma carne de zumbi, uma prato sofisticado",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "underfabner:explorador_de_cavernas_root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "player": [],
+          "item": {
+            "items": [
+              "minecraft:rotten_flesh"
+            ]
+          }
+        }
+      }
+    }
+  }

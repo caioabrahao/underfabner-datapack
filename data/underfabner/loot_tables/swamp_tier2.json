@@ -1,0 +1,48 @@
+{
+    "pools": [
+      {
+        "rolls": 20,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:tadpole_bucket"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:verdant_froglight",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 9
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:pearlescent_froglight",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 9
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:ochre_froglight",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 9
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

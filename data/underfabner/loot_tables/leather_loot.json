@@ -1,0 +1,35 @@
+{
+    "pools": [
+      {
+        "rolls": 20,
+        "entries": [
+          {
+            "type": "minecraft:group",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "weight": 2,
+                "name": "minecraft:beef"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 2,
+                "name": "minecraft:cooked_beef"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 2,
+                "name": "minecraft:rabbit_hide"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 4,
+                "name": "minecraft:leather"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

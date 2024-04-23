@@ -1,0 +1,82 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 15,
+        "entries": [
+          {
+            "type": "minecraft:group",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "weight": 5,
+                "name": "minecraft:gunpowder",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 13
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 1,
+                "quality": 10,
+                "name": "minecraft:crossbow",
+                "functions": [
+                  {
+                    "function": "minecraft:enchant_randomly",
+                    "enchantments": [
+                      "minecraft:multishot"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 2,
+                "name": "minecraft:tipped_arrow",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 2
+                  },
+                  {
+                    "function": "minecraft:set_potion",
+                    "id": "minecraft:water_breathing"
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 3,
+                "name": "minecraft:tipped_arrow",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 4
+                  },
+                  {
+                    "function": "minecraft:set_potion",
+                    "id": "minecraft:luck"
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 3,
+                "name": "minecraft:baked_potato",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 6
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

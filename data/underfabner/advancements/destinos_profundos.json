@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_boots"
+    },
+    "title": "Turista de destinos profundos",
+    "description": "Visite todos os biomas de caverna",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "underfabner:explorador_de_cavernas_root",
+  "criteria": {
+    "visit_deep_dark": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:deep_dark"
+          }
+        }
+      }
+    },
+    "visit_lush_caves": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:lush_caves"
+          }
+        }
+      }
+    },
+    "visit_dripstone_caves": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:dripstone_caves"
+          }
+        }
+      }
+    }
+  }
+}

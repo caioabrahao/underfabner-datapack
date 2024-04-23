@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 5,
+        "max": 7
+      },
+      "bonus_rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:milk_bucket",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{display:{Name:'[{\"text\":\"Leite Louco\",\"italic\":false,\"bold\":true,\"color\":\"yellow\"}]',Lore:['[{\"text\":\"Level 5 Non-Milk Substance\",\"italic\":false,\"color\":\"dark_gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"Players curam 75% do dado a\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"um player coberto por leite\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"The Special Delivery\",\"italic\":false,\"color\":\"#ccff00\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"The Shortstop\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"The Holy Mackere\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"The Milkman\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"(Não trocável ou comercializável)\",\"italic\":false,\"color\":\"#666666\"}]']}}",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:random_chance",
+                      "chance": 0.02
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+    "structures": [
+      {
+        "structure": "underfabner:biscoito_small",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:cake_small",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:nihilus_dungeon",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:rainbow_big",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:leather_medium",
+        "weight": 1
+      },
+      {
+        "structure": "underfabner:mushroom_medium",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 1398240204,
+      "spacing": 10,
+      "separation": 5
+    }
+  }
+  
