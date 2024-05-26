@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:birch_sapling"
+      },
+      "title": "Cheirinho de Eucalipto",
+      "description": "Encontre a dungeon de Birch",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "underfabner:diario_do_aventureiro_root",
+    "criteria": {
+      "enter_dungeon": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "structure": "underfabner:birch_small"
+            }
+          }
+        }
+      }
+    }
+  }
+  

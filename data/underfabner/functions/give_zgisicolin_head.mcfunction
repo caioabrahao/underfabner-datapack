@@ -1,0 +1,1 @@
+give @s player_head{SkullOwner:"zGiSicolin"}

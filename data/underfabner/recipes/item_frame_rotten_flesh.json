@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "sticks",
+    "pattern": [
+      "SSS",
+      "SRS",
+      "SSS"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "R": {
+        "item": "minecraft:rotten_flesh"
+      }
+    },
+    "result": {
+      "item": "minecraft:item_frame",
+      "count": 1
+    }
+  }
+  

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+          "item": "minecraft:player_head",
+          "nbt": "{SkullOwner:\"naovoudarpratras\"}"
+        },
+        "title": "Mate naovoudarpratras",
+        "description": "Mate naovoudarpratras"
+      },
+    "parent": "underfabner:guerra_civil_root",
+    "criteria": {
+      "kill_specific_player": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:player",
+            "name": "naovoudarpratras"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "underfabner:give_panzan_head"
+    }
+  }
+  

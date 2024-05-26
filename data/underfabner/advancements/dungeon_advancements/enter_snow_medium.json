@@ -1,0 +1,44 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:snowball"
+      },
+      "title": "Friozin Bomm",
+      "description": "Encontre a dungeon de neve",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "underfabner:diario_do_aventureiro_root",
+    "criteria": {
+    "enter_snow_medium1": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "structure": "underfabner:snow_medium1"
+            }
+          }
+        }
+      },
+      "enter_snow_medium2": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "structure": "underfabner:snow_medium2"
+            }
+          }
+        }
+      }
+    },
+
+      "requirements": [
+        [
+          "enter_snow_medium1",
+          "enter_snow_medium2"
+        ]
+      ]
+  }
+  

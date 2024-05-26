@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:ender_eye"
+      },
+      "title": "O fim no começo?",
+      "description": "Encontre a dungeon de End Grande",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "underfabner:diario_do_aventureiro_root",
+    "criteria": {
+      "enter_dungeon": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "structure": "underfabner:end_big"
+            }
+          }
+        }
+      }
+    }
+  }
+  

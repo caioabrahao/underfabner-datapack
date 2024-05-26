@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:tnt"
+      },
+      "title": "Uma Pitada de Cloreto de Potássio",
+      "description": "Tenha coragem de entrar na TNT gigante",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "underfabner:diario_do_aventureiro_root",
+    "criteria": {
+      "enter_dungeon": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "structure": "underfabner:tnt_small"
+            }
+          }
+        }
+      }
+    }
+  }
+  

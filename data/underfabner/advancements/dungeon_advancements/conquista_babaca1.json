@@ -1,0 +1,75 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:mossy_cobblestone"
+    },
+    "title": "Conquista Babaca",
+    "description": "Animal...",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "underfabner:diario_do_aventureiro_root",
+  "criteria": {
+    "enter_dungeon1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "underfabner:dungeon_babaca1"
+          }
+        }
+      }
+    },
+    "enter_dungeon2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "underfabner:dungeon_babaca2"
+          }
+        }
+      }
+    },
+    "enter_dungeon3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "underfabner:dungeon_babaca3"
+          }
+        }
+      }
+    },
+    "enter_dungeon4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "underfabner:dungeon_babaca4"
+          }
+        }
+      }
+    },
+    "enter_dungeon5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "underfabner:dungeon_babaca5"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "enter_dungeon1",
+      "enter_dungeon2",
+      "enter_dungeon3",
+      "enter_dungeon4",
+      "enter_dungeon5"
+    ]
+  ]
+}

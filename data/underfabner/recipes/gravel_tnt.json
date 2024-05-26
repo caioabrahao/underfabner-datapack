@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "sand",
+    "pattern": [
+      "PCP",
+      "CPC",
+      "PCP"
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:gunpowder"
+      },
+      "C": {
+        "item": "minecraft:gravel"
+      }
+    },
+    "result": {
+      "item": "minecraft:tnt",
+      "count": 1
+    }
+  }
+  

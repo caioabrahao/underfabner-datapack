@@ -1,38 +1,40 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:oak_sapling"
-      },
-      "title": "Vai cresçer, vai cresçer...",
-      "description": "Use bonemeal para cresçer uma árvore e finalmente ter madeira",
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_sapling"
     },
-    "parent": "underfabner:explorador_de_cavernas_root",
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:item_used_on_block",
-        "conditions": {
-          "item": {
-            "items": [
-              "minecraft:bone_meal"
+    "title": "Vai cresçer, vai cresçer...",
+    "description": "Use bonemeal para cresçer uma árvore e finalmente ter madeira",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "underfabner:explorador_de_cavernas_root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bone_meal"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:spruce_sapling",
+              "minecraft:oak_sapling",
+              "minecraft:jungle_sapling",
+              "minecraft:dark_oak_sapling",
+              "minecraft:birch_sapling",
+              "minecraft:acacia_sapling",
+              "minecraft:azalea",
+              "minecraft:flowering_azalea"
             ]
-          },
-          "location": {
-            "block": {
-              "blocks": [
-                "minecraft:spruce_sapling",
-                "minecraft:oak_sapling",
-                "minecraft:jungle_sapling",
-                "minecraft:dark_oak_sapling",
-                "minecraft:birch_sapling",
-                "minecraft:acacia_sapling"
-              ]
-            }
           }
         }
       }
     }
   }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:iron_sword"
+      },
+      "title": "He's in the walls...",
+      "description": "Morra para uma Vex",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "underfabner:death_advancements/died_creeper",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_killed_player",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:vex"
+          }
+        }
+      }
+    }
+  }
+  

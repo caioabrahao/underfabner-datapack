@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:egg"
+      },
+      "title": "the Chicken Man",
+      "description": "Reproduza suas galinhas",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "underfabner:explorador_de_cavernas_root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:bred_animals",
+        "conditions": {
+          "parent": {
+            "type": "minecraft:chicken"
+          },
+          "partner": {
+            "type": "minecraft:chicken"
+          }
+        }
+      }
+    }
+  }
+  

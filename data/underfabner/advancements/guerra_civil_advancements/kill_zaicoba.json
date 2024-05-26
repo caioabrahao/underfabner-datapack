@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+          "item": "minecraft:player_head",
+          "nbt": "{SkullOwner:\"zaicoba\"}"
+        },
+        "title": "Mate zaicoba",
+        "description": "Mate zaicoba"
+      },
+    "parent": "underfabner:guerra_civil_root",
+    "criteria": {
+      "kill_specific_player": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:player",
+            "name": "zaicoba"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "underfabner:give_zaicoba_head"
+    }
+  }
+  

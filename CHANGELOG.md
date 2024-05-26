@@ -1,10 +1,9 @@
 # Changelog
 
-## Patch 1.2
-After much work, I bring you the 1.2 update of Underfabner!
+## PATCH 1.3 TRAZENDO MAIS CONQUISTAS E DESAFIOS!
+O patch 1.3 do Underfabner já está no ar e rodando a todo o vapor!
 
-### Features:
-- **Balanced Chest Items:** Chest items are now balanced, meaning no more free diamonds!
-- **Improved Dungeon Generation:** Dungeons will now generate more uniformly, making them easier to find.
-- **New Achievement Tree:** Introducing a new achievement tree. More to come soon...
+1. Siga o caminho do explorador de cavernas e avance com a nova linha de conquistas
+2. Encontre as conquistas secretas
+3. Ganhe conquistas para as dungeons que encontrar
 

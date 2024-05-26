@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:chiseled_sandstone"
+      },
+      "title": "O templo do Faraó",
+      "description": "Explore a dungeon de deserto grande",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "underfabner:diario_do_aventureiro_root",
+    "criteria": {
+      "enter_dungeon": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "structure": "underfabner:desert_big"
+            }
+          }
+        }
+      }
+    }
+  }
+  

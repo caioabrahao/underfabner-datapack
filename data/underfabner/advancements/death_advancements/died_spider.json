@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:string"
+      },
+      "title": "Aracnofobia",
+      "description": "Morra para uma aranha",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "underfabner:death_advancements/died_skeleton",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_killed_player",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:spider"
+          }
+        }
+      }
+    }
+  }
+  

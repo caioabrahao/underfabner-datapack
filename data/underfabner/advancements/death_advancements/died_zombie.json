@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:zombie_head"
+      },
+      "title": "Left 4 Craft",
+      "description": "Morra para um zumbi",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "underfabner:explorador_de_cavernas_root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_killed_player",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:zombie"
+          }
+        }
+      }
+    }
+  }
+  

@@ -17,11 +17,6 @@
       "conditions": {
         "entity": {
           "type": "minecraft:player"
-        },
-        "killing_blow": {
-          "direct_entity": {
-            "type": "minecraft:player"
-          }
         }
       }
     }

@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:creeper_head"
+      },
+      "title": "Aw man...",
+      "description": "Morra para um Creeper",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "underfabner:death_advancements/died_spider",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_killed_player",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:creeper"
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:chicken"
+      },
+      "title": "Los Pollos Standards",
+      "description": "Prepare um frango assado",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "underfabner:the_chicken_man",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:chicken"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+  

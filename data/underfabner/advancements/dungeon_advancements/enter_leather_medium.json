@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:leather"
+      },
+      "title": "Aula prática de anatomia",
+      "description": "Explore o interior da Vaca suprema",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "underfabner:diario_do_aventureiro_root",
+    "criteria": {
+      "enter_dungeon": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "structure": "underfabner:leather_medium"
+            }
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:player_head",
+        "nbt": "{SkullOwner:\"Mr_Creeper_\"}"
+      },
+      "title": "Pera.. Não é aquele Nihilus?",
+      "description": "Ou será Mr_Creeper_?",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "underfabner:diario_do_aventureiro_root",
+    "criteria": {
+      "enter_dungeon": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "structure": "underfabner:nihilus_dungeon"
+            }
+          }
+        }
+      }
+    }
+  }
+  
